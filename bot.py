@@ -298,4 +298,4 @@ async def on_message(message):
             embed.add_field(name="베팅 알림", value=f"플레이어{current_player + 1}님의 차례입니다. 베팅해주세요.\n[/콜, /하프, /올인, /다이]", inline=False)
             await message.channel.send(embed=embed)
 
-client.run('MTA5MDY0MDUzMjEyMTg2NjM0MQ.GqBXBH.6bgkNjCXRQvxN0gpE24Zcf0HrngtBnEJcFje1I')
+client.run('YOUR TOKEN HERE')
